@@ -1,2 +1,19 @@
 # bmp
 a basic bmp loader for little endian systems
+
+# features
+Supported files formats : 
+ - 32 bits BGRX
+ - 24 bits BGR
+ - 16 bits X1B5G5R5
+ - 8 bits indexed bitmaps
+ - 4 bits indexed bitmaps
+ - monochrome indexed bitmaps
+ - RLE8
+ - RLE4
+ 
+/!\  BMP files with bitmaps are not supported
+ 
+ # using the library
+ 
+ 
