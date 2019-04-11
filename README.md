@@ -16,9 +16,11 @@ Supported files formats :
  
  # using the library
  
- use the exaemple below :
+ use the exemple below :
  
  ```c
+ #include <stdlib.h>
+ 
  #include "bmp.h"
  
  void foo(char *filename)
@@ -29,8 +31,8 @@ Supported files formats :
    
    res = loadBMP( filename, &pixels, &w, &h );
    if( res ) {
-    printf("Error, could not load %s\n", filename);
-    return;
+     printf("Error, could not load %s\n", filename);
+     return;
    }
    
    /* do cool stuff with the pixels */
