@@ -29,6 +29,8 @@ Supported files formats :
    char *pixels;
    int res;
    
+   /* load the bmp specified by filename and stores the datas in a freshly allocated buffer
+      Note : pixels format is RGBA */
    res = loadBMP( filename, &pixels, &w, &h );
    if( res ) {
      printf("Error, could not load %s\n", filename);
