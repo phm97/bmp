@@ -12,7 +12,7 @@ Supported files formats :
  - RLE8
  - RLE4
  
-/!\  BMP files with bitmasks are not supported
+/!\  BMP files containing bitmasks are not supported. 
  
  # using the library
  
